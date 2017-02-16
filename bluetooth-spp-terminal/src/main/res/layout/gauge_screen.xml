@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/speed_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speedLabel"
+        android:gravity="center_horizontal"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/md_teal_A100"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentSpeed"
+        android:gravity="center_horizontal"
+        android:textSize="168sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/md_teal_A100"/>
+
+    <TextView
+        android:text="@string/range_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rangeLabel"
+        android:gravity="center_horizontal"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/md_teal_A100"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentRange"
+        android:gravity="center_horizontal"
+        android:textSize="168sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/md_teal_A100"/>
+</LinearLayout>
